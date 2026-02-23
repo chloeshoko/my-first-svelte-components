@@ -88,6 +88,10 @@ This is your page!
   quote="As I look back over a misspent life I find myself more and more convinced that I had more fun doing news reporting than in any other enterprise. It is really the life of kings."
   attribution="H.L. Mencken"
 />
+<Blockquote
+  quote="Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech, or of the press; or the right of the people peaceably to assemble, and to petition the Government for a redress of grievances."
+  attribution="Constitution of the United States"
+/>
   </ArticleBody>
 
   <!-- Related Stories: Links to other articles -->

@@ -9,15 +9,15 @@
 
 <style>
   blockquote {
-    margin: 2rem 0;
+    margin: 4rem 0;
     padding: 1rem;
     padding-left: 1.5rem;
     border-left: 4px solid var(--color-accent);
-    background-color: var(--color-light-gray);
+    background-color: var(--color-light-red);
   }
 
   p {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.6;
     font-style: italic;
   }
