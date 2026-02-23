@@ -9,6 +9,11 @@ This is your page!
   import Image from '$lib/components/Image.svelte';
   import RelatedLinks from '$lib/components/RelatedLinks.svelte';
   import Blockquote from '$lib/components/Blockquote.svelte';
+  import PromotionalAside from '$lib/components/PromotionalAside.svelte';
+  import BigNumber from '$lib/components/BigNumber.svelte';
+  import Dashboard from '$lib/components/Dashboard.svelte';
+
+
 
   // Article metadata
   let headline = 'Become a force for good. Join our next class.';
@@ -47,6 +52,24 @@ This is your page!
     credit="Craig Newmark Graduate School of Journalism"
   />
 
+<Dashboard>
+  <BigNumber
+    number="2006"
+    label="Year Founded"
+  />
+
+  <BigNumber
+    number="1,300"
+    label="Alumni"
+  />
+
+  <BigNumber
+    number="50%"
+    label="Attend tuition free"
+    footnote="As of Aug. 2025"
+  />
+</Dashboard>
+
   <!-- Article Body: The main story text with proper typography -->
   <ArticleBody>
     <p>
@@ -64,6 +87,13 @@ This is your page!
     <p>
       Our low tuition rates, along with the added backing of private donors, allow candidates for our master’s degrees in journalism and engagement journalism to receive a world-class education at an affordable price. We also offer a unique bilingual master’s in journalism for students fluent in English and Spanish.
     </p>
+
+    <PromotionalAside
+      title="Now accepting applications"
+      text="The Craig Newmark Graduate School of Journalism is now accepting applications for the next class."
+      ctaText="Apply now"
+      ctaHref="https://www.journalism.cuny.edu/future-students/admissions/how-to-apply/"
+    />
 
     <p>
       Our three media centers provide research, training, thought leadership, industry meet-ups, and financial support for quality journalistic work.

@@ -43,28 +43,9 @@ SiteHeader.svelte — NYCity News Service Style Header
     box-shadow: 0 2px 4px var(--color-shadow);
   }
 
-  /* Full-width blue background with animated dark-to-light gradient */
+  /* Full-width solid blue background */
   .masthead-wrapper {
-    background: linear-gradient(
-      90deg,
-      var(--color-cuny-blue-dark) 0%,
-      var(--color-cuny-blue) 50%,
-      var(--color-cuny-blue-light) 100%
-    );
-    background-size: 200% 100%;
-    animation: gradient-sweep 6s ease-in-out infinite;
-  }
-
-  @keyframes gradient-sweep {
-    0% {
-      background-position: 0% 0%;
-    }
-    50% {
-      background-position: 100% 0%;
-    }
-    100% {
-      background-position: 0% 0%;
-    }
+    background-color: var(--color-cuny-blue);
   }
 
   /* Compact Masthead - Mobile: centered */
