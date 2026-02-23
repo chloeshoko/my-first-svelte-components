@@ -8,6 +8,7 @@ This is your page!
   import ArticleBody from '$lib/components/ArticleBody.svelte';
   import Image from '$lib/components/Image.svelte';
   import RelatedLinks from '$lib/components/RelatedLinks.svelte';
+  import Blockquote from '$lib/components/Blockquote.svelte';
 
   // Article metadata
   let headline = 'Become a force for good. Join our next class.';
@@ -83,6 +84,10 @@ This is your page!
     <p>
       We invite you to be part of our world.
     </p>
+    <Blockquote
+  quote="As I look back over a misspent life I find myself more and more convinced that I had more fun doing news reporting than in any other enterprise. It is really the life of kings."
+  attribution="H.L. Mencken"
+/>
   </ArticleBody>
 
   <!-- Related Stories: Links to other articles -->
